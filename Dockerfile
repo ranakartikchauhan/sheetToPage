@@ -14,6 +14,9 @@ RUN apt-get update && apt-get install -y \
 # Install Composer
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
+# Set environment variable to allow Composer to run as superuser
+ENV COMPOSER_ALLOW_SUPERUSER=1
+
 # Run composer install
 RUN composer install --no-interaction --no-scripts --prefer-dist
 
