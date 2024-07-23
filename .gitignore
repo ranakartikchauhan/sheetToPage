@@ -1,0 +1,86 @@
+# Composer
+/vendor/
+/composer.lock
+
+# PHPUnit
+/phpunit.xml
+/phpunit.xml.dist
+/test-results.xml
+
+# Laravel
+/.env
+/.env.*
+/storage/
+/bootstrap/cache/
+/public/hot
+/public/storage
+/public/hot
+/storage/*.key
+
+# Symfony
+/app/config/parameters.yml
+/app/config/parameters.yml.dist
+/var/
+/vendor/
+/public/bundles/
+/bin/
+/build/
+/.cache/
+/logs/
+/symfony.lock
+/.env.local
+/.env.local.php
+/.env.*.local
+
+# WordPress
+/wp-config.php
+/.htaccess
+/wp-content/uploads/
+
+# Drupal
+/sites/*/files
+/sites/*/settings.php
+/sites/*/settings.local.php
+
+# CakePHP
+/app/tmp/
+/app/webroot/files/
+/app/webroot/robots.txt
+
+# Yii
+/vendor/
+/runtime/
+
+# Magento
+/app/etc/local.xml
+/var/
+/pub/media/*
+/pub/static/*
+/var/composer_home/
+
+# General
+*.lock
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+*.csv
+*.bak
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# IDEs and Editors
+/.idea/
+/.vscode/
+/nbproject/
+/nbproject/private/
+/*.sublime-project
+/*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
